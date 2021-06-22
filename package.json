@@ -1,0 +1,26 @@
+{
+  "name": "portfolio-bootstrape-sass",
+  "version": "1.0.0",
+  "description": "- sass\r - Bootstrape",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass-file": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filaslee/portfolio-bootstrape-sass.git"
+  },
+  "author": "Filmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filaslee/portfolio-bootstrape-sass/issues"
+  },
+  "homepage": "https://github.com/filaslee/portfolio-bootstrape-sass#readme",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^5.0.0-beta3"
+  }
+}
