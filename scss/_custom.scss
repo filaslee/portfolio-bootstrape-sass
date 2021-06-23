@@ -1,5 +1,10 @@
-$indigo: #6610f2;
-$purple: #6f42c1;
-$primary: $purple;
+$firstcolor: #045de9;
+$secondcolor: hsl(216, 98%, 63%);
+$white:white;
+$primary: $firstcolor;
+$secondary:$secondcolor;
+
+$navbar-dark-color: rgba($white, .70);
+$navbar-dark-hover-color: rgba($white, .98);
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";

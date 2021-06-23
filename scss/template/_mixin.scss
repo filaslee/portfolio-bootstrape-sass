@@ -1,0 +1,5 @@
+@use '../custom'as *;
+
+@mixin colors {
+    background: linear-gradient(360deg, rgba($primary, 0.98), rgba($secondary, 0.98));
+}

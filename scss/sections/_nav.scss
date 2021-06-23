@@ -1,0 +1,27 @@
+@use '../custom'as *;
+@use '../template/mixin'as *;
+
+.menu {
+    @include colors;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.80);
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+    ul {}
+
+    li {
+        padding: 0 0.8rem;
+
+
+        a {
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: 400;
+        }
+
+    }
+}
