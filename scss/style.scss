@@ -1,3 +1,7 @@
 @use 'custom';
 @use './sections/nav';
 @use 'template/mixin';
+@use './sections/intro';
+@use './template/typo';
+@use './template/animation';
+@use './template/button';
