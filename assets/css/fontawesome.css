@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*!
  * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -11,6 +12,7 @@
   src: url("../webfonts/fa-brands-400.eot");
   src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
+
 .fab {
   font-family: "Font Awesome 5 Brands";
   font-weight: 400;
@@ -28,6 +30,7 @@
   src: url("../webfonts/fa-regular-400.eot");
   src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
 }
+
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
@@ -116,7 +119,8 @@
   margin-left: 2.5em;
   padding-left: 0;
 }
-.fa-ul > li {
+
+.fa-ul>li {
   position: relative;
 }
 
@@ -149,6 +153,7 @@
 .fab.fa-pull-left {
   margin-right: 0.3em;
 }
+
 .fa.fa-pull-right,
 .fas.fa-pull-right,
 .far.fa-pull-right,
@@ -169,10 +174,12 @@
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   transform: rotate(90deg);
@@ -198,7 +205,8 @@
   transform: scale(1, -1);
 }
 
-.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
   transform: scale(-1, -1);
 }
@@ -6090,7 +6098,8 @@ readers do not read off random characters that represent icons */
   width: 1px;
 }
 
-.sr-only-focusable:active, .sr-only-focusable:focus {
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
   clip: auto;
   height: auto;
   margin: 0;
@@ -6111,6 +6120,7 @@ readers do not read off random characters that represent icons */
   src: url("../webfonts/fa-solid-900.eot");
   src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
 }
+
 .fa,
 .fas {
   font-family: "Font Awesome 5 Free";
